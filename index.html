@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <title>Survey</title>
+  </head>
+
+  <body>
+    <div class="body">
+      <div class="header">
+        <h1>Follow up survey</h1>
+      </div>
+
+      <form class="formbody">
+        <div class="section">
+          <div class="inline">
+            <div class="paddingbtn rt">When did you use our service?</div>
+            <input type="date" class="input" />
+          </div>
+          <div class="inline">
+            <div class="paddingbtn">Name of product or service</div>
+            <input class="input" />
+          </div>
+          <div class="sfont">Date</div>
+        </div>
+        <div class="section">
+          <div class="paddingbtn">
+            Overall, how satisfied are you with the product or service?
+          </div>
+          <div class="inline">
+            <input type="radio" id="s1" name="sat" value="Vary satisfied" />
+            <label for="s1">Vary satisfied</label><br />
+          </div>
+          <div class="inline">
+            <input type="radio" id="s2" name="sat" value="Satisfied" />
+            <label for="s2">Satisfied</label><br />
+          </div>
+          <div class="inline">
+            <input type="radio" id="s3" name="sat" value="Neutral" />
+            <label for="s3">Neutral</label><br />
+          </div>
+          <div class="inline">
+            <input type="radio" name="sat" id="s4" value="Unsatisfied" />
+            <label for="s4">Unsatisfied</label><br />
+          </div>
+          <div class="inline">
+            <input type="radio" id="s5" name="sat" value="Very unsatisfied" />
+            <label for="s5">Very unsatisfied</label><br />
+          </div>
+          <input type="radio" id="s6" name="sat" value="N/A" />
+          <label for="s6">N/A</label><br />
+        </div>
+        <div class="section">
+          <div class="paddingbtn">
+            Did our product or service meet you expectations?
+          </div>
+          <div class="inline">
+            <input type="radio" id="e1" name="expectations" value="Yes" />
+            <label for="e1">Yes</label><br />
+          </div>
+          <div class="inline">
+            <input type="radio" id="e2" name="expectations" value="No" />
+            <label for="e2">No</label><br />
+          </div>
+        </div>
+        <div class="section">
+          <div class="paddingbtn">
+            Would you recommend this product or service to friend?
+          </div>
+          <div class="inline">
+            <input type="radio" id="f1" name="friend" value="Yes" />
+            <label for="f1">Yes</label><br />
+          </div>
+          <div class="inline">
+            <input type="radio" id="f2" name="friend" value="No" />
+            <label for="f2">No</label><br />
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="paddingbtn">
+            What aspect of the product or service were you most satisfied by?
+          </div>
+          <div class="inline">
+            <input type="radio" id="aspect1" name="aspect" value="Quality" />
+            <label for="aspect1">Quality</label><br />
+          </div>
+          <div class="inline">
+            <input type="radio" id="aspect2" name="aspect" value="Price" />
+            <label for="aspect2">Price</label><br />
+          </div>
+          <div class="inline">
+            <input
+              type="radio"
+              id="aspect3"
+              name="aspect"
+              value="Customer service"
+            />
+            <label for="aspect3">Customer service</label><br />
+          </div>
+          <div class="inline">
+            <input
+              type="radio"
+              id="aspect4"
+              name="aspect"
+              value="Installation or first use experience"
+            />
+            <label for="aspect4">Installation or first use experience</label>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="paddingbtn">
+            What aspect of the product or service were you least satisfied by?
+          </div>
+          <div class="inline">
+            <input type="radio" id="laspect1" name="laspect" value="Quality" />
+            <label for="laspect1">Quality</label><br />
+          </div>
+          <div class="inline">
+            <input type="radio" id="laspect2" name="laspect" value="Price" />
+            <label for="laspect2">Price</label><br />
+          </div>
+          <div class="inline">
+            <input
+              type="radio"
+              id="laspect3"
+              name="laspect"
+              value="Customer service"
+            />
+            <label for="laspect3">Customer service</label><br />
+          </div>
+          <div class="inline">
+            <input
+              type="radio"
+              id="laspect4"
+              name="laspect"
+              value="Installation or first use experience"
+            />
+            <label for="laspect4">Installation or first use experience</label>
+          </div>
+        </div>
+        <div class="section">
+          <div class="paddingbtn">Additional comments :</div>
+          <textarea placeholder="Type here..."></textarea>
+        </div>
+        <div class="center"><input type="submit" value="submit" /></div>
+      </form>
+    </div>
+  </body>
+</html>
